@@ -1,5 +1,5 @@
 FROM babim/centosbase:7-x86
-ENV SOFT	NetFlow
+ENV SOFT	FireWallAnalyzer
 ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/OpManager
 
