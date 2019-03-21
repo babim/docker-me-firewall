@@ -1,5 +1,4 @@
-# opmanager
-ManageEngine Firewall Analyzer on docker
+# ManageEngine Firewall Analyzer on docker
 
 To quickly get started running use the following command:
 ```bash
