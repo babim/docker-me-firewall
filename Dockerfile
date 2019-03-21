@@ -1,6 +1,6 @@
-FROM babim/oraclelinuxbase:7
-ENV SOFT	NetFlow
-ENV EDITTION	essential
+FROM babim/centosbase:7-x86
+ENV SOFT	FireWallAnalyzer
+ENV EDITTION	enterprise
 ENV SOFT_HOME	/opt/ManageEngine/OpManager
 
 # install depend
