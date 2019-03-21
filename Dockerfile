@@ -1,5 +1,5 @@
 FROM babim/oraclelinuxbase:7
-ENV SOFT	NetFlow
+ENV SOFT	FireWallAnalyzer
 ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/OpManager
 
@@ -14,6 +14,6 @@ RUN wget --no-check-certificate -O - https://raw.githubusercontent.com/babim/doc
 
 VOLUME ["${SOFT_HOME}"]
 # Expose default HTTP connector port.
-EXPOSE 6565 9996 9996/udp
+EXPOSE 8060
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
