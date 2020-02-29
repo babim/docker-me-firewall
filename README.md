@@ -6,7 +6,7 @@ docker run --detach --publish 8060:8060 babim/fwa:latest
 ```
 ```
 volume:
-/opt/ManageEngine/OpManager
+/opt/ManageEngine
 port:
 8060
 ```
